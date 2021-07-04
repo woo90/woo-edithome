@@ -1,0 +1,43 @@
+/*
+
+font-family: 'Noto Sans KR', sans-serif;
+
+*/
+
+
+/***************************** 공통사항 **************************************/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap');
+
+html, body {font-family: 'Noto Sans KR', sans-serif; font-size: 16px;}
+.wrapper {width: calc(100% - 64px); margin: auto; max-width: 1136px;}
+
+
+
+
+
+
+/***************************** .header-wrapper **************************************/
+.header-wrapper {background-color: #fff; color: #010006; font-size: 0.875em; padding: 0.5em;}
+.top-wrapper {width: 100%;}
+.top-wrapper .navi-lt {display: flex; justify-content: space-between; justify-items: center;}
+
+
+/***************************** 반응형 **************************************/
+
+
+
+
+
+/***************************** 반응형 **************************************/
+@media screen and (max-width: 1199px) {
+
+}
+@media screen and (max-width: 991px) {
+	
+}
+@media screen and (max-width: 767px) {
+	
+}
+@media screen and (max-width: 575px) {
+	
+}
