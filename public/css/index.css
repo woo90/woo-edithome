@@ -9,7 +9,8 @@ font-family: 'Noto Sans KR', sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap');
 
 html, body {height: 10000px; font-family: 'Noto Sans KR', sans-serif; font-size: 16px;}
-.wrapper {width: calc(100% - 64px); margin: auto; max-width: 1136px;}
+.img {width: 100%; margin: 0 auto;}
+.wrapper {width: calc(100% - 64px); margin: auto; max-width: 1360px;}
 
 
 
@@ -36,11 +37,17 @@ html, body {height: 10000px; font-family: 'Noto Sans KR', sans-serif; font-size:
 
 
 /***************************** main-wrapper **************************************/
-.main-wrapper {flex: 1 1 0%; margin: 0 auto; box-sizing: border-box; width: 100%; position: relative;}
+.main-wrapper {margin: 0 auto; box-sizing: border-box; width: 100%;}
 .main-wrapper .home-wrapper {width: 100%; overflow: hidden;}
-.home-wrapper .hmoe-banner {position: absolute; top: 3.125rem; right: 0px; display: block; width: 85rem; height: 21.875rem; min-width: 85rem; max-width: 85rem; margin: 0 auto;}
-.home-wrapper .hmoe-banner img {width: 100%; max-width: 100%;}
+.main-wrapper .home-wrap {overflow: hidden;}
+.home-wrapper .home-banner {width: 100%; max-width: 85rem; margin: auto; box-shadow: rgb(0 0 0 / 6%) 0 4px 10px;}
+.home-wrapper .home-banner span {display: block; width: 100%; overflow: hidden;}
+.home-wrapper .home-banner span img {width: 100%; max-width: 100%;}
 
+.main-wrapper .review-wrapper {padding: 5rem 0;}
+.main-wrapper .review-wrapper .title-wrapper {display: flex; justify-content: space-between; align-items: center;}
+.main-wrapper .review-wrapper .title-wrapper h2 {font-weight: 500; color: rgb(0, 0, 10); cursor: pointer;}
+.main-wrapper .review-wrapper .title-wrapper h2 img {width: 16px; height: 16px;}
 
 
 
